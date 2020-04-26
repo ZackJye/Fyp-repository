@@ -17,6 +17,7 @@ Abstract
 Here, an Audio-LSTM model for personality trait recognition using video data is developed. A selective sampling (First Impression rule) applied to the dataset to generalize the model better. Beside, this research also investigate the relationship between the information exposure and the number of modalities. Audio and visual features will be extracted from the video data. NO feature engineering or visual analysis performed on the visual data.
 
 ## Implementation
+The model architecture is shown in model.py.
 1. Download the repository.
 2. Download the dataset from the official web.
 3. Execute the Demo.ipynb to with different video to get personality score.
@@ -27,7 +28,8 @@ Excel file
 
 
 
-train folder contain useful utilities function on training and evaluating the model.
+train folder contain useful utilities function on training and evaluating the model. (further modification required according to the situation)
+- Preprocess_video.ipynb ->for extract audio features into excel and video into images
+- Audio-LSTM.ipynb -> to rebuild to whole model
 
-The model architecture is shown in model.py.
 
