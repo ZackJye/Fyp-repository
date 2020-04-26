@@ -20,7 +20,8 @@ Here, an Audio-LSTM model for personality trait recognition using video data is 
 The model architecture is shown in model.py.
 1. Download the repository.
 2. Download the dataset from the official web.
-3. Execute the Demo.ipynb to with different video to get personality score.
+3. Execute the Demo.ipynb to with different video to get personality score. (required trained model)
+can request the trained model from zijye98@1utar.my
 
 Excel file
 - audio_training_15.csv contains 26 audio features for each of the video in the training dataset(also the landmarks)
